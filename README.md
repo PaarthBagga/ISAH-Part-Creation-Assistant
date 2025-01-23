@@ -1,1 +1,1 @@
-To simplify part entry process, quickly validate part folder structure and revision consistency. Utilizes VBA algorithm to traverse part folder and consolidate ISAH part entry fields into single interface.![image](https://github.com/user-attachments/assets/27a47345-5405-4732-a954-f7c1ba7c9570)
+To simplify part entry process, quickly validate part folder structure and revision consistency. Utilizes VBA algorithm to traverse part folder and consolidate ISAH part entry fields into single interface.
