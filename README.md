@@ -21,7 +21,7 @@ Creating these records in the company's Enterprise Reporting and Planning system
 
 
 
-<h2>[HOW TO SETUP FOR USE]</h2>
+<h1>[INSTALLATION]</h1>
 
 Follow the instructions below to ensure the ISAH Part Creation Assistant is trusted and able to run.
 <ol type="1">
@@ -40,7 +40,7 @@ File > Options > Trust Center > Trust Center Settings > Macro Settings > Enable 
 <li>Open the ISAH Part Creation Assistant Workbook</li>
 </ol>
 
-<h2>[HOW TO USE]</h2>
+<h12>[USAGE]</h1>
 
 <ol type="1">
 <li>Click the run button at the top of the screen<br>
