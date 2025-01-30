@@ -1,15 +1,75 @@
-<h1>Purpose & Context:</h1> 
-During my time at Legend Fleet Solutions, (Vehicle upfit manufacturing company) I created this <bold>VBA Macro</bold> to make entering records into the company's ISAH (ERP) database easier.
+<h1>💡 ISAH Part Creation Assistant </h1> 
 
-The company manufactures different <bold>parts</bold> for vehicles including flooring, insulated wall liners and ceilings, and other insulation. Each of these parts require a record in the database that links all the required files to produce the part. Files include production files that program manufacturing machines, product images, and drawings. Essentially anything required to re-produce the part from scratch. 
+<h2>ℹ️ Project Overview and Important Context</h2>
+During my time at Legend Fleet Solutions (a vehicle upfit manufacturing company), I created this <bold>VBA Macro</bold> to streamline the process of entering records into the company's ISAH ERP database. 
 
-<h2>Part Numbers</h2>
-Each variation of part is tracked with a specialized SKU called a Part Number that details its specific use ex, product type, vehicle type and year etc. Records in the ERP system are centered around part numbers.
 
-<h2>Revision Numbers</h2>
-Each of these part's is also designed by specialized engineers and at times, parts need to be revised and recreated due to issues like misfitting, wrong dimensions etc. These revisions are tracked by the revision number, and a part directory must have all the files with the same revision number, otherwise the part is created wrong and the customer purchasing the part will be incontent.
+<br><br>
 
-<h2>Manual Entry Process</h2>
+<h3>🚚 About Legend Fleet Solutions:</h3>
+Legend Fleet Solutions manufacturers various <bold>vehicle parts</bold>, including:<br>
+<ul>
+   <li>
+      Flooring, insulated wall liners, ceilings, and other insulation components.
+   </li>
+   <li>
+      Each part requires a corresponding <bold>record in the ERP system</bold>, linking all necessary files for manufacturing.
+   </li>
+   <li>
+      These files include:<br>
+      <ul>
+         <li>Production files for manufacturing machines.</li>
+         <li>Product images and technical drawings.</li>
+         <li>Any documentation required to reproduce the part from scratch.</li>
+      </ul>
+   </li>
+</ul>
+
+<h3>🔢 Part Numbers</h3>
+Each part variation is tracked using a <bold>specialized SKU</bold> called a <bold>Part Number,</bold>bold> which contains important details such as:<br><br>
+<ul>
+   <li>Product Type.</li>
+   <li>Vehicle Type.</li>
+   <li>Model Year.</li>
+   <li>Other relevant specifications.</li>
+   All records in the <bold>ERP System</bold> are centered around <bold>Part Numbers</bold>
+</ul>
+
+
+<h3>🔄 Revision Numbers</h3>
+Parts are designed by <bold>specialized engineers,</bold> and at times, revisions are necesssary due to: <br><br>
+<ul>
+   <li>Misfitting.</li>
+   <li>Incorrect Dimensions.</li>
+   <li>Other manufacturing issues.</li>
+</ul>
+These revisions are tracked using a <bold>Revision Number</bold>
+For a directory to be accurate, it must contain files <bold>with the same revision numbers</bold>. Any inconsistencies could cause incorrect production, resulting in <bold>customer dissatisfaction and operational inefficiencies</bold>.
+
+
+<h2>🏗️  Manual Entry & Search Process (Before Automated Creation)</h2>
+Prior to creating this operation, creating records in the ISAH ERP system was a <bold>long and tedious</bold> process. <br><br>
+<ul>
+   <li><bold>Redundant steps</bold> and <bold>manual file searching</bold> made this process inefficient.</li>
+   <li>Manual errors in <bold>file naming, folder structures, and missing files</bold> caused frequent delays.</li>
+   <li>The entire process was <bold>very tiem consuming</bold></li>
+</ul>
+<hr>
+<h2>⚡ Impact of my Macro</h2>
+To optimize and automate this process, I developed a <bold>VBA Macro</bold> that:<br><br>
+<ul>
+   <li>
+      <bold>Reduced processing time by 95% by automatically pulling data from Part directories.</bold>
+   </li>
+   <li>
+      <bold>Consolidated all required files and file paths into a single excel sheet</bold>
+   </li>
+   <li><bold>Reduced inconsistencies by 95% by cross referencing revision numbers of all files within part directory</bold></li>
+   <li>S<bold>aved hours of time processing records manually</bold></li>
+</ul>
+While full automation into the ERP was possible, an element of <bold>manual review was necessary</bold> due to inconsistencies in original <bold>file and folder names</bold>
+
+<h3></h3>
 Creating these records in the company's Enterprise Reporting and Planning system "ISAH", was a long and tedious process, with many redundant processes making manual processing time very long. Hence, I optimized and automated the process to reduce the time needed by nearly 95%, consolidating all the required files & file paths into a single excel sheet. The process could be fully automated but due to manual error in the creation of the original directories (differing file/folder names, incorrect titles etc), an element of manual processing was mandatory to ensure the entry process went smoothly.
 
 <h2>Macro Functionality</h2>
