@@ -104,9 +104,6 @@ Follow the instructions below to ensure the ISAH Part Creation Assistant is trus
 
 ![image](https://github.com/user-attachments/assets/6c46f1d9-8a8e-4f19-aac1-ae83a8cd99e8)
 
-- If **no revision numbers are found**, an alert is raised.
-
-![image](https://github.com/user-attachments/assets/64459489-bdb6-4690-96e5-3c88a7b1a379)
 
 - If revision numbers are **slightly off**, a warning is displayed.
 ![image](https://github.com/user-attachments/assets/6fbfe4af-9365-483d-958c-2f48a7f97093)
